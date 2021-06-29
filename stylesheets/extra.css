@@ -1,0 +1,83 @@
+body
+{
+    /*font-family: "Times New Roman"*/
+}
+
+:root
+{	
+	--md-primary-fg-color: #4d8200;
+    /*--md-primary-fg-color--light: #ECB7B7;*/
+    /*--md-primary-fg-color--dark:  #90030C;*/
+	
+	/* Scrollbars, link hover */
+	--md-accent-fg-color: #74a800;
+}
+
+.md-grid 
+{
+    /* Use a bit more page horizontally, default is 64rem */
+    max-width: 70rem;
+}
+
+.md-typeset table:not([class]) th
+{
+	/* Use less space for columns */
+	min-width: 3rem;
+	padding: .3rem .3rem;
+}
+
+.md-header
+{
+	background-color: #4d8200; /*#847c31;*/
+	color: white;
+}
+
+.md-tabs
+{
+	background-color: #74a800; /*#c2bb2d;*/
+	color: white;
+}
+
+.md-typeset .note > .admonition-title, .md-typeset .note > summary
+{
+	background-color: #b2d273;
+}
+
+.md-typeset .example > .admonition-title, .md-typeset .example > summary
+{
+	background-color: #b2d273;
+}
+
+.md-typeset .summary > .admonition-title, .md-typeset .summary > summary
+{
+    background-color: #b2d273;
+}
+
+.md-typeset .admonition.example
+{
+	border-color: #74a800;
+}
+
+.md-typeset .admonition.note
+{
+	border-color: #74a800;
+}
+
+.md-typeset .admonition.summary
+{
+    border-color: #74a800;
+}
+
+/*
+.md-typeset .admonition.bug > .admonition-title::before, .md-typeset .admonition.bug > summary::before, .md-typeset .admonition.important > .admonition-title::before, .md-typeset .admonition.important > summary::before, .md-typeset .admonition.bug > .admonition-title::before, .md-typeset .admonition.bug > summary::before, .md-typeset details.hint > .admonition-title::before, .md-typeset details.hint > summary::before, .md-typeset details.important > .admonition-title::before, .md-typeset details.important > summary::before, .md-typeset details.bug > .admonition-title::before, .md-typeset details.bug > summary::before {
+    color: #ff0000;    
+}
+*/
+
+
+strong em
+{
+	/* Default black uses 87% opacity for some reason */
+	color: #000000;
+}
+
